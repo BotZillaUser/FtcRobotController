@@ -901,7 +901,7 @@ class PredictiveBrakingTuner extends OpMode {
 
                 velocityToBrakingDistance.add(new double[]{measuredVelocity, brakingDistance});
 
-                telemetryM.debug("Test " + iteration,
+                telemetryM.debug("org/firstinspires/ftc/teamcode/Test " + iteration,
                         String.format("v=%.3f  d=%.3f", measuredVelocity,
                                 brakingDistance));
                 telemetryM.update(telemetry);
