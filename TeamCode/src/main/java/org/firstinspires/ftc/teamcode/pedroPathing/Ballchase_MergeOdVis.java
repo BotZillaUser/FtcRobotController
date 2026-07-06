@@ -95,9 +95,9 @@ public class Ballchase_MergeOdVis extends LinearOpMode {
                     LLResultTypes.DetectorResult ball = getBestBall(result);
 
                     if (ball != null) {
-                        double tx = ball.getTargetXDegrees(); // horizontal angle
-                        double ta = ball.getTargetArea();     // % of frame filled
-                        double conf = ball.getConfidence();   // confidence %
+                        double tx = 10.0; // horizontal angle
+                        double ta = 5.0;     // % of frame filled
+                        double conf = 80.0;   // confidence %
 
                         telemetry.addData("Ball tx", "%.2f°", tx);
                         telemetry.addData("Ball ta", "%.2f%%", ta);
