@@ -40,7 +40,7 @@ public class Ballchase_MergeOdVis extends LinearOpMode {
     static final double CONFIDENCE_THRESHOLD = 53.0;
 
     // How centered the ball needs to be before we start driving forward
-    static final double TX_TOLERANCE      = 2.0;
+    static final double TX_TOLERANCE      = 10.0;
 
     // Max turn power when zeroing tx
     static final double TURN_SPEED        = 0.35;
